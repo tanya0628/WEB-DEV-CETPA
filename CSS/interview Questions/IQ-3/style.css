@@ -1,0 +1,50 @@
+.pie-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(red 0% 25%, blue 25% 50%, green 50% 75%, yellow 75% 100%);
+  }
+  .opaque{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    opacity: 0.12;
+  }
+  .card {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  .card:hover {
+    transform: scale(1.1); /* Enlarges the card on hover */
+  }
+  .card-container {
+    perspective: 1000px; /* Allows for 3D transformations */
+  }
+  .card1 {
+    width: 300px;
+    height: 400px;
+    background-color: #f39c12;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    transform: rotateY(0deg);
+  }
+  .card1:hover {
+    transform: rotateY(20deg); /* Creates 3D rotation effect on hover */
+  }
+
+  .card3 {
+    width: 300px;
+    height: 400px;
+    background-color: #2ecc71;
+    transition: transform 0.5s ease;
+  }
+  .card3:hover {
+    transform: rotateZ(40deg); /* Rotates the card on the Z-axis */
+  }
