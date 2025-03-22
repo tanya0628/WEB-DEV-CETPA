@@ -1,0 +1,146 @@
+
+body{
+    background-color: rgb(155, 153, 153);
+}
+.wlcm{
+    background-color: white;
+    height: 150px;
+    width: 500px;
+    border: 10px solid red;
+    border-radius:15px;
+ text-align: center;
+justify-content:center;
+ color: rgba(108, 23, 75, 0.797);
+ text-shadow: 2px 2px 5px rgb(108, 29, 87);
+ box-shadow: 10px 10px rgb(148, 14, 148);
+ font-style: italic;
+margin-left: 30%;
+}
+
+
+.main{
+    height: 800px;
+    width: auto;
+    border: 10px solid green;
+}
+.box{
+    justify-content: space-between;
+    display: flex;
+   
+}
+.add{
+
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    border: 10px solid red;
+    border-radius:15px;
+    box-shadow: 10px 10px 5px rgb(148, 14, 148);
+    color: rgb(55, 15, 59);
+    align-items: center;
+    font-style: bold italic;
+    text-shadow: 2px 2px 5px rgb(121, 21, 81);
+    padding-left: 15px;
+    font-style: italic;
+}
+
+.box1{
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    border: 10px solid red;
+    border-radius:15px;
+    box-shadow: 10px 10px 5px rgb(148, 14, 148);
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box2{
+    margin-top: 100px;
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    border: 10px solid red;
+    border-radius:15px;
+    box-shadow: 10px 10px 5px rgb(148, 14, 148);
+    color: rgba(38, 7, 42, 0.808);
+    align-items: center;
+    font-style: bold;
+    text-shadow: 1px 1px 5px rgb(121, 21, 81);
+    padding-left: 15px;
+
+}  
+.box3{
+    margin-top: 100px;
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    border: 10px solid red;
+    border-radius:15px;
+    box-shadow: 10px 10px 5px rgb(148, 14, 148);
+    color: rgba(57, 14, 62, 0.808);
+    align-items: center;
+    font-style: bold;
+    text-shadow: 2px 2px 5px rgb(121, 21, 81);
+    text-align: center;
+
+}  .main2{
+    height: 700px;
+    width: 900px;
+    border: 10px solid blue ;
+    background-color: green;
+    margin-left: 20%;
+    margin-top: 15px;
+   
+    
+}
+.store{
+    justify-content: space-evenly;
+    text-align: center;
+}
+.a{
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+}
+.fruit{
+    height: 350px;
+    width: 400px;
+    background-color: yellow;
+}
+.Vegetable{
+    height: 350px;
+    width: 400px;
+    background-color:yellow;
+}
+.other{  
+ font-style: italic;
+    margin-left: 20px;
+    height: 250px;
+    width:850px ;
+    background-color: yellow;
+    text-align: center;
+   
+}
+.footer-fix {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+  
+    top: 550px;
+    left: 460px;
+  }
+  .offer{
+    height: 100px;
+    width: 500px;
+    border: 10px solid red;
+    border-radius: 15px;
+    background-color: green;
+    box-shadow: 10px 10px 5px rgb(148, 14, 148);
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+ }
