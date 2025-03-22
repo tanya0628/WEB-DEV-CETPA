@@ -1,0 +1,140 @@
+body{
+    border: 40px double black;
+    margin: 0;
+    background-size: cover;
+    background-image:url(cafe.jpeg) ;
+    background-repeat: no-repeat;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.div1{
+    border: 7px solid rgb(161, 204, 120);
+    border-radius: 35px;
+    height: 150px;
+    width: 350px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    padding-left: 23px;
+}
+.div2{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: xx-large;
+    border: 7px solid rgb(155, 235, 141);
+    border-radius: 35px;
+    height: 80px;
+    width: 480px;
+    margin-left: -20px;
+    margin-top: 10px;
+    padding-left: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: self-end;
+    justify-content: space-around;
+}
+.div3{
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    height: 100px;
+    width: 400px;
+    border: 7px solid rgb(94, 196, 96);
+    border-radius: 35px;
+    background-color: black;
+    color: white;
+    padding : 10px;
+}
+.heading2{
+    display: flex;
+}
+.divv1{
+    border: 8px solid red;
+    background-color: yellow;
+    border-radius: 50% ;
+    width: 400px;
+    height :400px;
+    margin-top: 50px;
+}
+.divv2{
+    border: 8px dashed blue;
+    height: 700px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    background-color: cadetblue;
+}
+.form{
+   display: flex;
+   justify-content: center;
+   font-size: larger;
+   font-weight: 600;
+   color: red;
+}
+.details {
+    display: flex;
+    margin-left: 120px;
+    align-items: center;
+  }
+.divvv1{
+    border: 12px dotted blue;
+    border-radius: 35px;
+    height: 150px;
+    width: 350px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+    background-color: tan;
+    color: white;
+    margin-left: 35%;
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    
+}
+.menu1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    color: black;
+  }
+  
+  .box1{
+    border: 8px solid white;
+    border-radius: 35px;
+    background-color :chocolate;
+    width: 25%;
+  }
+  
+  .food{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 100px;
+  }
+  
+  li {
+    margin-left: 100px;
+    font-size: larger;
+  }
+  
+  .menu2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .box2{
+    border: 8px solid white;
+    border-radius: 35px;
+    background-color :chocolate;
+    width: 25%;
+  }
