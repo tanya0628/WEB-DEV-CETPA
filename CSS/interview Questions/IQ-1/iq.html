@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>  CSS Interview Questions day-1</h1>
+    <h3>Ques. Difference between flex row and column</h3>
+    <p>Ans. In CSS Flexbox, flex-direction is used to set the direction of flex items within a container. The two most common values are row and column: <br>
+    flex direction row =Items are arranged horizontally from left to right (by default). <br>example:</p>
+    <div class="container">
+        <div>{item 1} </div> 
+        <div>{item 2} </div> 
+        <div>{item 3} </div> 
+
+    </div>
+    <p>
+        flex direction coloumn : Items are arranged vertically from top to bottom.
+    </p>
+    <div class="container2">
+        <div>{item 1} </div> 
+        <div>{item 2}  </div> 
+        <div>{item 3} </div> 
+
+    </div>
+    <h3>Ques. Explain inline , internal and external stylesheet </h3>
+<p>Ans. In web development, there are three main ways to apply CSS (Cascading Style Sheets) to HTML: inline, internal, and external stylesheets.
+<br>
+    1. Inline Stylesheet
+    CSS is applied directly to the HTML element using the style attribute.
+    Only affects the specific element.
+    Useful for quick, one-off styles but not recommended for larger projects . <br>
+    2. Internal Stylesheet
+    CSS is placed within the style tag inside the  head section of the HTML document.
+    Styles apply only to that specific page. <br>3. External Stylesheet
+    CSS is written in a separate .css file.
+    The CSS file is linked to the HTML using the link tag in the head. </p>
+    <h3>Ques. Justify-content allows you to do what?    </h3>
+    <p>Ans. The justify-content property in CSS Flexbox and Grid layout is used to align items along the main axis of a container. The main axis is horizontal by default (flex-direction: row) but 
+        can be vertical if flex-direction: column is used. It controls how space is distributed between items and where items are positioned in the container.</p>
+        justify-content Values: <br>
+        1. flex-start (Default) <br>
+        <div class="content1">
+            <div>{item 1} </div> 
+            <div>{item 2}  </div> 
+            <div>{item 3} </div> 
+    
+        </div> <br>
+
+        2. flex-end <br>
+        <div class="content2">
+            <div>{item 1} </div> 
+            <div>{item 2}  </div> 
+            <div>{item 3} </div> 
+    
+        </div> <br>
+3. center <br>
+<div class="content3">
+    <div>{item 1} </div> 
+    <div>{item 2}  </div> 
+    <div>{item 3} </div> 
+
+</div> <br>
+4.space-between <br>
+<div class="content4">
+    <div>{item 1} </div> 
+    <div>{item 2}  </div> 
+    <div>{item 3} </div> 
+
+</div> <br>
+5.space-around <br>
+<div class="content5">
+    <div>{item 1} </div> 
+    <div>{item 2}  </div> 
+    <div>{item 3} </div> 
+
+</div> <br>
+6.space-evenly <br>
+<div class="content6">
+    <div>{item 1} </div> 
+    <div>{item 2}  </div> 
+    <div>{item 3} </div> 
+
+</div> <br>
+<h3>Ques. Difference between absolute and relative positioning</h3>
+<p>Ans. relative : <br>
+     The element is positioned relative to its original position in the document flow.
+    It remains in the document flow, so other elements are not affected.
+    You can use top, right, bottom, and left to move the element relative to its starting position.</p>
+    <div class="rel"></div>
+<br> 
+absolute: <br> The element is removed from the normal document flow, meaning it doesn't affect other elements.
+It is positioned relative to the nearest positioned ancestor (relative, absolute, fixed, or sticky).
+If no positioned ancestor exists, it positions itself relative to the <html> (viewport).
+    <div class="absolute"></div>
+    <h3>Ques. What is the z-index in CSS?    </h3>
+    <p>Ans. The z-index in CSS is a property that controls the stacking order of positioned elements along the z-axis (the imaginary depth axis). It determines which elements appear in front of or behind others when they overlap.
+    <br>Positive integers: Brings elements forward (z-index: 10). <br>
+    Negative integers: Sends elements backward (z-index: -1). <br> 
+    Auto: Uses the default order (z-index: auto). </p>
+    <div class="main">
+        <div class="card1">card1</div>
+       <div  class="card2">card2</div>
+       <div  class="card3">card3</div>
+       <div  class="card4">card4</div>
+       <div  class="card5">card5</div> 
+       </div>
+       
+
+   
+<div class="last">
+<h3>Ques. What is the difference between padding and margin?</h3>
+<p>Ans. In CSS, padding and margin are both used to create space around elements, but they work in different ways: <br>
+1. Padding :  <br> Adds space inside an element, between the element's content and its border.
+Expands the element's size, affecting its background color and border area. <br>
+<div class="padding"> Hello India</div>
+2. Margin : <br>Adds space outside an element, between the element's border and surrounding elements.
+Does not affect the element's background color or size.</p>
+<div class="margin"> hello world </div>
+</div>
+    </body>
+</html>
