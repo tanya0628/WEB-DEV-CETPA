@@ -1,0 +1,135 @@
+/* body{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+    color: black;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-left: 150px;
+}
+span{
+    color:  #00BFFF;
+}
+.task-1{
+    height: 600px;
+    width: auto;
+    background-color: rgb(248, 246, 246);
+    padding-left: 50px;
+}
+.task-2{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.box{
+    height: 250px;
+    width: 240px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom:10px;
+    border: 1px solid lightgray;
+}
+.box:hover{
+    box-shadow: 1px 1px 20px lightgray;
+    transition-delay: 1s;
+}
+.new{
+    margin-left: 700px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+.h3{
+    margin-left: 10px;
+    color:  #00BFFF;
+}
+input{
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+.input{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.L1{
+    text-decoration: line-through;
+    color: grey;
+} */
+
+
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+    color: black;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-left: 150px;
+}
+span{
+    color:  #00BFFF;
+}
+.task-1{
+    height: 600px;
+    width: auto;
+    background-color: rgb(248, 246, 246);
+    padding-left: 50px;
+}
+.new{
+    margin-left: 700px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+.task-2{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.box{
+    height: 250px;
+    width: 240px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom:10px;
+    border: 1px solid lightgray;
+
+}
+h3{
+    margin-left: 10px;
+    color:  #00BFFF;
+}
+input{
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+.input{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.L1{
+    text-decoration: line-through;
+    color: grey;
+}
