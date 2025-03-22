@@ -1,0 +1,153 @@
+body{
+    background-image: url(shara\ desert.jpg);
+    background-size: cover;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    background-repeat: repeat;
+}
+
+
+@media (min-width:200px) and (max-width:640px){
+    .manu{
+        width: 500px;
+    }
+    body{
+        background-size: cover;
+    }
+    .main-2{
+        width: 100px;
+        height: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-bottom: 0px; */
+    }
+    .main-3{
+        width: 500px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .main-3 div {
+        height: 100px;
+        width: 200px;
+        border-radius: 15px;
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+    .img-1{
+        position: absolute;
+
+        /* height: 100px;
+        width: 100px; */
+    }
+    .img-2{
+        position: absolute;
+        top: 0px;
+        right: 00px;
+    }
+    .img-3{
+        position: absolute;
+        top: 0px;
+    }
+    .img-4{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+}
+
+
+
+#logo{
+    height: 50px;
+    width: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+#men{
+    height: 25px;
+    width: 25px;
+}
+.manu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu2{
+    display: flex;
+}
+
+.main-2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+.p1{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    button{
+        color: black;
+        border: none;
+        background-color: white;
+        border-radius: 20px;
+        height: 35px;
+        width: 160px;  
+        font-weight: bold;
+        font-size: small;
+        padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 15px;
+    }
+    .main-3{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .img-1{
+        background-image: url(pic-1.png);
+    }
+    .img-1,.img-2,.img-3,.img-4{
+        height: 200px;
+        width: 170px;
+        padding: 5px;
+        margin: 10px;
+        border-radius: 15px;
+        background-image: url(./pic-1.png);
+        position: relative;
+        transition: ease;
+        transition-duration: 1s;
+    }
+    .img-1:hover{
+        margin-top: 5px;
+    }
+    .img-2:hover{
+        margin-top: 5px;
+    }
+    .img-3:hover{
+        margin-top: 5px;
+    }
+    .img-4:hover{   
+        margin-top: 5px;
+    }
+    .img-2{
+        background-image: url(./pic-2.png);
+    }
+    .img-3{
+        background-image: url(./pic-3.png);
+    }
+    .img-4{
+        background-image: url(./pic-4.png);
+    }
+    .small{
+        font-size: smaller;
+    }
