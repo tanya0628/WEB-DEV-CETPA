@@ -11,7 +11,7 @@ console.log("the sum of the numbers is " +  sum );
 
 
 
-question 2 Find if the conditions are obeyed or not?
+// question 2 Find if the conditions are obeyed or not?
 var a = 6;
 var b = 5;
 
@@ -24,7 +24,7 @@ else{
 
 }
 
-question 3 Check the conditions
+// question 3 Check the conditions
 
 var a = 10;
 var b = 50;
@@ -43,7 +43,7 @@ else if (a % 10 == 0 || b % 10 == 0) {
 }
 
 
-question 4 Find the first digit of a 4 digit number 
+// question 4 Find the first digit of a 4 digit number 
 let number = 4567;
 let firstDigit = Math.floor(number / 1000);
 console.log(firstDigit);  // Output: 4
@@ -52,7 +52,7 @@ console.log(firstDigit);  // Output: 4
 
 
 
-question 5  Find the last digit of a 4 digit number 
+// question 5  Find the last digit of a 4 digit number 
 let number = 4567;
 let firstDigit = Math.floor(number % 10);
 console.log(firstDigit);  // Output: 7
@@ -60,7 +60,7 @@ console.log(firstDigit);  // Output: 7
 
 
 
-question 6 Find the remainder
+// question 6 Find the remainder
 
  let a = 9;
  let b = 2;
@@ -69,7 +69,7 @@ question 6 Find the remainder
  console.log(result);
 
 
-question 7 Multiply two Numbers
+// question 7 Multiply two Numbers
 let a = 2;
  let b = 5;
  result = a * b ;
@@ -77,7 +77,7 @@ let a = 2;
  console.log(result);
 
 
-question 8  Marks Calculator
+// question 8  Marks Calculator
 let a = 50;
 let b = 20;
 let c = 100;
