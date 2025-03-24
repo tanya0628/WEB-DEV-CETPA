@@ -1,8 +1,8 @@
 //  question 1  Add two Numbers
-// var a = 56;
-// var b = 44;
-// var sum = a + b;
-// console.log("the sum of the numbers is " + sum);
+var a = 56;
+var b = 44;
+var sum = a + b;
+console.log("the sum of the numbers is " + sum);
 
 // var a = parseInt(prompt("enter no. "));
 // var b = parseInt(prompt("enter no. ")) ;
