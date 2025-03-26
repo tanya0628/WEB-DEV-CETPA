@@ -34,6 +34,9 @@
 
 // console.log(grade);
 
+
+// question 2
+
 // let inputChar = prompt("Enter a character: ");
 
 // if (inputChar === 'p') {
@@ -47,6 +50,8 @@
 // } else {
 //     console.log("Character not found in table");
 // }
+
+// question 3
 
 // let a =  prompt("enter the number");
 // let b = prompt("enter the number");
@@ -63,6 +68,8 @@
 //     console.log(c);
 
 //  }
+
+// question 4
 
 // let a =  prompt("enter the number");
 // let b = prompt("enter the number");
@@ -81,6 +88,8 @@
 
 //      }
 
+
+// question 5
 // var a = 20;
 // var b = 200;
 // var c = 20;
